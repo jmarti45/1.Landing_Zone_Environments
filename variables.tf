@@ -46,3 +46,10 @@ variable "Subnethub02" {
 variable "nsgshub01" {
   type = string
 }
+
+variable "env" {
+  type = string
+}
+variable "sakey" {
+  type = string
+}

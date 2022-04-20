@@ -1,13 +1,13 @@
 
 resource "azurerm_network_security_group" "nsgspoke01" {
-  name                = var.nsgspoke01
+  name                = "${var.nsgspoke01}-${var.env}"
   location            = "westeurope"
   resource_group_name = "kafkajmd"
 }
 
 
 resource "azurerm_virtual_network" "vnetspoke01" {
-  name                = var.vnetspoke01
+  name                = "${var.vnetspoke01}-${var.env}"
   location            = "westeurope"
   resource_group_name = "kafkajmd"
   address_space       = ["10.0.0.0/16"]

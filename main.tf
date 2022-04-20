@@ -5,7 +5,7 @@ terraform {
     container_name       = "tfstates"
     #sas_token            = "$SAS_TOKEN"
     sas_token = "?sv=2020-08-04&ss=b&srt=sco&sp=rwdlactf&se=2023-04-14T14:21:41Z&st=2022-04-08T06:21:41Z&spr=https&sig=MeJakfhltFFgYBPsniDZ%2BtkdXksPsngOj3K3pZGHy%2FY%3D"
-    key       = "terraformgithubexample03.tfstate"
+    key       = var.sakey
   }
 
 

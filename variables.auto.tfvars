@@ -1,9 +1,3 @@
-# Location
-location = {
-  name = "westeurope"
-  code = "weu1"
-}
-
 # Vnet spoke
 vnetspoke01   = "Vnetspoke01"
 Subnetspoke01 = "subnet01"
